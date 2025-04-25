@@ -1,0 +1,3 @@
+run = ["npm install", "npx tailwindcss -i ./input.css -o ./globals.css --watch &", "npm run dev"]
+language = "nodejs"
+entrypoint = "index.js"
