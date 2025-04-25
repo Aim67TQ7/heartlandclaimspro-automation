@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-blue: #1E88E5;
+  --secondary-blue: #0D47A1;
+  --accent-blue: #64B5F6;
+  --dark-gray: #333333;
+  --light-gray: #F5F5F5;
+  --white: #FFFFFF;
+}
+
+body {
+  color: var(--dark-gray);
+  background-color: var(--white);
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.btn-primary {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
+
+.btn-secondary {
+  @apply bg-white hover:bg-gray-100 text-blue-500 font-bold py-2 px-4 rounded border border-blue-500;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-6;
+}
+
+.container {
+  @apply mx-auto px-4 max-w-7xl;
+}
