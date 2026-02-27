@@ -5,26 +5,26 @@
 **Status:** In Transition
 
 ## What This Was
-Standalone app or experiment
+heartlandclaimspro-automationd
 
 ## Current State
-Deprecated — function should be handled by agent. Last pushed 2025-04-25.
+Function replaceable by agent — last pushed 2025-04-25
 
 ## Agent Replacement
 **Agent Name:** PENDING
-**Lives On:** Maggie or Pete VPS (TBD)
+**Lives On:** Maggie or Pete VPS (to be determined during build)
 **Orchestrator:** n8n workflow
-**Endpoint or Trigger:** N/A
+**Endpoint or Trigger:** PENDING
 **Supabase Table:** N/A
 
 ## Handoff Notes
-This repo's core function was: General purpose / unclear. The recommended replacement pattern is: n8n workflow. Check ORC skill list at https://orc.gp3.app/skills before building anything new.
+Core function: heartlandclaimspro-automationd. Recommended replacement: n8n workflow. Verify at https://orc.gp3.app/skills before building anything new.
 
 ## Dependencies
-- None identified from README
+- None identified — check package.json for specifics
 
 ## Last Known Working State
 2025-04-25
 
 ## Claude's Notes
-- Agent replacement not yet built. This is a backlog item.
+- Agent replacement not yet built. This is a backlog item for the GP3 platform team.
